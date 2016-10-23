@@ -1,0 +1,27 @@
+<footer> <a href="#" class="button alt">How To Create a Tooltip.</a>
+    <p class="well">To create a tooltip, add the data-toggle=&quot;tooltip&quot; attribute to an element.
+        <br/>
+        <br/>Use the title attribute to specify the text that should be displayed inside the tooltip:</p>
+    <div class="wrapper">
+        <p class="well">&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; title=&quot;Hooray!&quot;&gt;Hover over me&lt;/a&gt;</p>
+    </div>
+    <p class="well">Note: Tooltips must be initialized with jQuery: select the specified element and call the tooltip() method.
+        <br/>
+        <br/>The following code will enable all tooltips in the document:</p>
+    <div class="wrapper">
+        <p class="well">&lt;script&gt;
+            <br/>$(document).ready(function(){
+            <br/> $('[data-toggle=&quot;tooltip&quot;]').tooltip();
+            <br/>});
+            <br/>&lt;/script&gt;</p>
+    </div> <a href="#" class="button alt">Positioning Tooltips.</a>
+    <p class="well">By default, the tooltip will appear on top of the element.
+        <br/>
+        <br/>Use the data-placement attribute to set the position of the tooltip on top, bottom, left or the right side of the element:</p>
+    <div class="wrapper">
+        <p class="well">&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;Hooray!&quot;&gt;Hover&lt;/a&gt;
+            <br/>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;bottom&quot; title=&quot;Hooray!&quot;&gt;Hover&lt;/a&gt;
+            <br/>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;left&quot; title=&quot;Hooray!&quot;&gt;Hover&lt;/a&gt;
+            <br/>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;right&quot; title=&quot;Hooray!&quot;&gt;Hover&lt;/a&gt;</p>
+    </div>
+</footer>

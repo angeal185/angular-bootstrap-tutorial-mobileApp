@@ -1,0 +1,40 @@
+<footer> <a href="#" class="button alt">How To Create an Affixed Navigation Menu.</a>
+    <p class="well">The following example shows how to create a horizontal affixed navigation menu:</p>
+    <div class="wrapper">
+        <p class="well">&lt;nav class=&quot;navbar navbar-inverse&quot; data-spy=&quot;affix&quot; data-offset-top=&quot;197&quot;&gt;</p>
+    </div>
+    <p class="well">The following example shows how to create a vertical affixed navigation menu:</p>
+    <div class="wrapper">
+        <p class="well">&lt;ul class=&quot;nav nav-pills nav-stacked&quot; data-spy=&quot;affix&quot; data-offset-top=&quot;205&quot;&gt;</p>
+    </div> <a href="#" class="button alt">How it works.</a>
+    <p class="well">The affix plugin toggles between three classes: .affix, .affix-top, and .affix-bottom. Each class represents a particular state. You must add CSS properties to handle the actual positions, with the exception of position:fixed on the .affix class.
+        <br/>
+        <br/>The plugin adds the .affix-top or .affix-bottom class to indicate the element is in its top-most or bottom-most position. Positioning with CSS is not required at this point.
+        <br/>
+        <br/>Scrolling past the affixed element triggers the actual affixing - This is where the plugin replaces the .affix-top or .affix-bottom class with the .affix class (sets position:fixed). At this point, you must add the CSS top or bottom property to position the affixed element in the page.
+        <br/>
+        <br/>If a bottom offset is defined, scrolling past it replaces the .affix class with .affix-bottom. Since offsets are optional, setting one requires you to set the appropriate CSS. In this case, add position:absolute when necessary.
+        <br/>In the first example above, the Affix plugin adds the .affix class (position:fixed) to the &lt;nav&gt; element when we have scrolled 197 pixels from the top. If you open the example, you will also see that we added the CSS top property with a value of 0 to the .affix class. This is to make sure that the navbar stays at the top of the page at all time, when we have scrolled 197 pixels from the top.
+        <br/>
+        <br/>
+    </p> <a href="#" class="button alt">Scrollspy & Affix.</a> <a href="#" class="button alt">Horizontal Menu (Navbar)</a>
+    <div class="wrapper">
+        <p class="well">&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.navbar&quot; data-offset=&quot;50&quot;&gt;
+            <br/>
+            <br/>&lt;nav class=&quot;navbar navbar-inverse&quot; data-spy=&quot;affix&quot; data-offset-top=&quot;197&quot;&gt;
+            <br/>...
+            <br/>&lt;/nav&gt;
+            <br/>
+            <br/>&lt;/body&gt;</p>
+    </div> <a href="#" class="button alt">Vertical Menu (Sidenav)</a>
+    <div class="wrapper">
+        <p class="well">&lt;body data-spy=&quot;scroll&quot; data-target=&quot;#myScrollspy&quot; data-offset=&quot;15&quot;&gt;
+            <br/>
+            <br/>&lt;nav class=&quot;col-sm-3&quot; id=&quot;myScrollspy&quot;&gt;
+            <br/> &lt;ul class=&quot;nav nav-pills nav-stacked&quot; data-spy=&quot;affix&quot; data-offset-top=&quot;205&quot;&gt;
+            <br/> ...
+            <br/>&lt;/nav&gt;
+            <br/>
+            <br/>&lt;/body&gt;</p>
+    </div>
+</footer>

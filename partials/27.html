@@ -1,0 +1,49 @@
+<footer> <a href="#" class="button alt">How To Create a Modal.</a>
+    <div class="wrapper">
+        <p class="well">&lt;!-- Trigger the modal with a button --&gt;
+            <br/>&lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;Open Modal&lt;/button&gt;
+            <br/>
+            <br/>&lt;!-- Modal --&gt;
+            <br/>&lt;div id=&quot;myModal&quot; class=&quot;modal fade&quot; role=&quot;dialog&quot;&gt;
+            <br/> &lt;div class=&quot;modal-dialog&quot;&gt;
+            <br/>
+            <br/> &lt;!-- Modal content--&gt;
+            <br/> &lt;div class=&quot;modal-content&quot;&gt;
+            <br/> &lt;div class=&quot;modal-header&quot;&gt;
+            <br/> &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;&gt;&amp;times;&lt;/button&gt;
+            <br/> &lt;h4 class=&quot;modal-title&quot;&gt;Modal Header&lt;/h4&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;modal-body&quot;&gt;
+            <br/> &lt;p&gt;Some text in the modal.&lt;/p&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;modal-footer&quot;&gt;
+            <br/> &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/>
+            <br/> &lt;/div&gt;
+            <br/>&lt;/div&gt;</p>
+    </div> <a href="#" class="button alt">The &quot;Trigger&quot; part:.</a>
+    <p class="well">To trigger the modal window, you need to use a button or a link.
+        <br/>
+        <br/>Then include the two data-* attributes:
+        <br/>
+        <br/>data-toggle=&quot;modal&quot; opens the modal window
+        <br/>data-target=&quot;#myModal&quot; points to the id of the modal</p> <a href="#" class="button alt">The &quot;Modal&quot; part:.</a>
+    <p class="well">The parent &lt;div&gt; of the modal must have an ID that is the same as the value of the data-target attribute used to trigger the modal (&quot;myModal&quot;).
+        <br/>
+        <br/>The .modal class identifies the content of &lt;div&gt; as a modal and brings focus to it.
+        <br/>
+        <br/>The .fade class adds a transition effect which fades the modal in and out. Remove this class if you do not want this effect.
+        <br/>
+        <br/>The attribute role=&quot;dialog&quot; improves accessibility for people using screen readers.
+        <br/>
+        <br/>The .modal-dialog class sets the proper width and margin of the modal.</p> <a href="#" class="button alt">The &quot;Modal content&quot; part:.</a>
+    <p class="well">The &lt;div&gt; with class=&quot;modal-content&quot; styles the modal (border, background-color, etc.). Inside this &lt;div&gt;, add the modal's header, body, and footer.
+        <br/>
+        <br/>The .modal-header class is used to define the style for the header of the modal. The &lt;button&gt; inside the header has a data-dismiss=&quot;modal&quot; attribute which closes the modal if you click on it. The .close class styles the close button, and the .modal-title class styles the header with a proper line-height.
+        <br/>
+        <br/>The .modal-body class is used to define the style for the body of the modal. Add any HTML markup here; paragraphs, images, videos, etc.
+        <br/>
+        <br/>The .modal-footer class is used to define the style for the footer of the modal. Note that this area is right aligned by default.</p>
+</footer>

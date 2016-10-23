@@ -1,0 +1,31 @@
+<footer> <a href="#" class="button alt">How To Create a Scrollspy.</a>
+    <p class="well">The following example shows how to create a scrollspy:</p>
+    <div class="wrapper">
+        <p class="well">&lt;!-- The scrollable area --&gt;
+            <br/>&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.navbar&quot; data-offset=&quot;50&quot;&gt;
+            <br/>
+            <br/>&lt;!-- The navbar - The &lt;a&gt; elements are used to jump to a section in the scrollable area --&gt;
+            <br/>&lt;nav class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&gt;
+            <br/>...
+            <br/> &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+            <br/> &lt;li&gt;&lt;a href=&quot;#section1&quot;&gt;Section 1&lt;/a&gt;&lt;/li&gt;
+            <br/> ...
+            <br/>&lt;/nav&gt;
+            <br/>
+            <br/>&lt;!-- Section 1 --&gt;
+            <br/>&lt;div id=&quot;section1&quot;&gt;
+            <br/> &lt;h1&gt;Section 1&lt;/h1&gt;
+            <br/> &lt;p&gt;Try to scroll this page and look at the navigation bar while scrolling!&lt;/p&gt;
+            <br/>&lt;/div&gt;
+            <br/>...
+            <br/>
+            <br/>&lt;/body&gt;</p>
+    </div> <a href="#" class="button alt">Example Explained.</a>
+    <p class="well">Add data-spy=&quot;scroll&quot; to the element that should be used as the scrollable area (often this is the &lt;body&gt; element).
+        <br/>
+        <br/>Then add the data-target attribute with a value of the id or the class name of the navigation bar (.navbar). This is to make sure that the navbar is connected with the scrollable area.
+        <br/>
+        <br/>Note that scrollable elements must match the ID of the links inside the navbar's list items (&lt;div id=&quot;section1&quot;&gt; matches &lt;a href=&quot;#section1&quot;&gt;).
+        <br/>
+        <br/>The optional data-offset attribute specifies the number of pixels to offset from top when calculating the position of scroll. This is useful when you feel that the links inside the navbar changes the active state too soon or too early when jumping to the scrollable elements. Default is 10 pixels.</p>
+</footer>

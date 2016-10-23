@@ -1,0 +1,97 @@
+<footer> <a href="#" class="button alt">Bootstrap's Default Settings.</a>
+    <p class="well">Form controls automatically receive some global styling with Bootstrap:
+        <br/>
+        <br/>All textual &lt;input&gt;, &lt;textarea&gt;, and &lt;select&gt; elements with class .form-control have a width of 100%.
+        <br/>
+    </p> <a href="#" class="button alt">Bootstrap Form Layouts.</a>
+    <p class="well">Bootstrap provides three types of form layouts:
+        <br/>
+        <br/>Vertical form (this is default)
+        <br/>Horizontal form
+        <br/>Inline form
+        <br/>Standard rules for all three form layouts:
+        <br/>
+        <br/>Always use &lt;form role=&quot;form&quot;&gt; (helps improve accessibility for people using screen readers)
+        <br/>Wrap labels and form controls in &lt;div class=&quot;form-group&quot;&gt; (needed for optimum spacing)
+        <br/>Add class .form-control to all textual &lt;input&gt;, &lt;textarea&gt;, and &lt;select&gt; elements
+        <br/>
+    </p> <a href="#" class="button alt">Bootstrap Vertical Form (default).</a>
+    <p class="well">The following example creates a vertical form with two input fields, one checkbox, and a submit button:</p>
+    <div class="wrapper">
+        <p class="well">&lt;form role=&quot;form&quot;&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;label for=&quot;email&quot;&gt;Email address:&lt;/label&gt;
+            <br/> &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;label for=&quot;pwd&quot;&gt;Password:&lt;/label&gt;
+            <br/> &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;pwd&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;checkbox&quot;&gt;
+            <br/> &lt;label&gt;&lt;input type=&quot;checkbox&quot;&gt; Remember me&lt;/label&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;
+            <br/>&lt;/form&gt;</p>
+    </div> <a href="#" class="button alt">Bootstrap Inline Form.</a>
+    <p class="well">In an inline form, all of the elements are inline, left-aligned, and the labels are alongside.
+        <br/>
+        <br/>Note: This only applies to forms within viewports that are at least 768px wide!
+        <br/>
+        <br/>Additional rule for an inline form:
+        <br/>
+        <br/>Add class .form-inline to the &lt;form&gt; element
+        <br/>The following example creates an inline form with two input fields, one checkbox, and one submit button:</p>
+    <div class="wrapper">
+        <p class="well">&lt;form class=&quot;form-inline&quot; role=&quot;form&quot;&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;label for=&quot;email&quot;&gt;Email address:&lt;/label&gt;
+            <br/> &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;label for=&quot;pwd&quot;&gt;Password:&lt;/label&gt;
+            <br/> &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;pwd&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;checkbox&quot;&gt;
+            <br/> &lt;label&gt;&lt;input type=&quot;checkbox&quot;&gt; Remember me&lt;/label&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;
+            <br/>&lt;/form&gt;</p>
+    </div> <a href="#" class="button alt">Bootstrap Horizontal Form.</a>
+    <p class="well">A horizontal form stands apart from the other forms both in the amount of markup, and in the presentation of the form.
+        <br/>
+        <br/>Additional rules for a horizontal form:
+        <br/>
+        <br/>Add class .form-horizontal to the &lt;form&gt; element
+        <br/>Add class .control-label to all &lt;label&gt; elements
+        <br/>Tip: Use Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout.
+        <br/>
+        <br/>The following example creates a horizontal form with two input fields, one checkbox, and one submit button:</p>
+    <div class="wrapper">
+        <p class="well">&lt;form class=&quot;form-horizontal&quot; role=&quot;form&quot;&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;label class=&quot;control-label col-sm-2&quot; for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+            <br/> &lt;div class=&quot;col-sm-10&quot;&gt;
+            <br/> &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot; placeholder=&quot;Enter email&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;label class=&quot;control-label col-sm-2&quot; for=&quot;pwd&quot;&gt;Password:&lt;/label&gt;
+            <br/> &lt;div class=&quot;col-sm-10&quot;&gt;
+            <br/> &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;pwd&quot; placeholder=&quot;Enter password&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;
+            <br/> &lt;div class=&quot;checkbox&quot;&gt;
+            <br/> &lt;label&gt;&lt;input type=&quot;checkbox&quot;&gt; Remember me&lt;/label&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;div class=&quot;form-group&quot;&gt;
+            <br/> &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;
+            <br/> &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/>&lt;/form&gt;</p>
+    </div>
+</footer>

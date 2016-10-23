@@ -1,0 +1,37 @@
+<footer> <a href="#" class="button alt">How To Create a Popover.</a>
+    <p class="well">To create a popover, add the data-toggle=&quot;popover&quot; attribute to an element.
+        <br/>
+        <br/>Use the title attribute to specify the header text of the popover, and use the data-content attribute to specify the text that should be displayed inside the popover's body:</p>
+    <div class="wrapper">
+        <p class="well">&lt;a href=&quot;#&quot; data-toggle=&quot;popover&quot; title=&quot;Popover Header&quot; data-content=&quot;Some content inside the popover&quot;&gt;Toggle popover&lt;/a&gt;</p>
+    </div>
+    <p class="well">Note: Popovers must be initialized with jQuery: select the specified element and call the popover() method.
+        <br/>
+        <br/>The following code will enable all popovers in the document:
+        <br/>
+    </p>
+    <div class="wrapper">
+        <p class="well">&lt;script&gt;
+            <br/>$(document).ready(function(){
+            <br/> $('[data-toggle=&quot;popover&quot;]').popover();
+            <br/>});
+            <br/>&lt;/script&gt;</p>
+    </div> <a href="#" class="button alt">Positioning Popovers.</a>
+    <p class="well">By default, the popover will appear on the right side of the element.
+        <br/>
+        <br/>Use the data-placement attribute to set the position of the popover on top, bottom, left or the right side of the element:</p>
+    <div class="wrapper">
+        <p class="well">&lt;a href=&quot;#&quot; title=&quot;Header&quot; data-toggle=&quot;popover&quot; data-placement=&quot;top&quot; data-content=&quot;Content&quot;&gt;Click&lt;/a&gt;
+            <br/>&lt;a href=&quot;#&quot; title=&quot;Header&quot; data-toggle=&quot;popover&quot; data-placement=&quot;bottom&quot; data-content=&quot;Content&quot;&gt;Click&lt;/a&gt;
+            <br/>&lt;a href=&quot;#&quot; title=&quot;Header&quot; data-toggle=&quot;popover&quot; data-placement=&quot;left&quot; data-content=&quot;Content&quot;&gt;Click&lt;/a&gt;
+            <br/>&lt;a href=&quot;#&quot; title=&quot;Header&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-content=&quot;Content&quot;&gt;Click&lt;/a&gt;</p>
+    </div> <a href="#" class="button alt">Closing Popovers.</a>
+    <p class="well">By default, the popover is closed when you click on the element again. However, you can use the data-trigger=&quot;focus&quot; attribute which will close the popover when clicking outside the element:</p>
+    <div class="wrapper">
+        <p class="well">&lt;a href=&quot;#&quot; title=&quot;Dismissible popover&quot; data-toggle=&quot;popover&quot; data-trigger=&quot;focus&quot; data-content=&quot;Click anywhere in the document to close this popover&quot;&gt;Click me&lt;/a&gt;</p>
+    </div>
+    <p class="well">Tip: If you want the popover to be displayed when you move the mouse pointer over the element, use the data-trigger attribute with a value of &quot;hover&quot;:</p>
+    <div class="wrapper">
+        <p class="well">&lt;a href=&quot;#&quot; title=&quot;Header&quot; data-toggle=&quot;popover&quot; data-trigger=&quot;hover&quot; data-content=&quot;Some content&quot;&gt;Hover over me&lt;/a&gt;</p>
+    </div>
+</footer>

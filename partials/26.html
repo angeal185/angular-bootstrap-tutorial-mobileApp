@@ -1,0 +1,64 @@
+<footer> <a href="#" class="button alt">How To Create a Carousel.</a>
+    <div class="wrapper">
+        <p class="well">&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+            <br/> &lt;!-- Indicators --&gt;
+            <br/> &lt;ol class=&quot;carousel-indicators&quot;&gt;
+            <br/> &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+            <br/> &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+            <br/> &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+            <br/> &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+            <br/> &lt;/ol&gt;
+            <br/>
+            <br/> &lt;!-- Wrapper for slides --&gt;
+            <br/> &lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+            <br/> &lt;div class=&quot;item active&quot;&gt;
+            <br/> &lt;img src=&quot;img_chania.jpg&quot; alt=&quot;Chania&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/>
+            <br/> &lt;div class=&quot;item&quot;&gt;
+            <br/> &lt;img src=&quot;img_chania2.jpg&quot; alt=&quot;Chania&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/>
+            <br/> &lt;div class=&quot;item&quot;&gt;
+            <br/> &lt;img src=&quot;img_flower.jpg&quot; alt=&quot;Flower&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/>
+            <br/> &lt;div class=&quot;item&quot;&gt;
+            <br/> &lt;img src=&quot;img_flower2.jpg&quot; alt=&quot;Flower&quot;&gt;
+            <br/> &lt;/div&gt;
+            <br/> &lt;/div&gt;
+            <br/>
+            <br/> &lt;!-- Left and right controls --&gt;
+            <br/> &lt;a class=&quot;left carousel-control&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+            <br/> &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+            <br/> &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+            <br/> &lt;/a&gt;
+            <br/> &lt;a class=&quot;right carousel-control&quot; href=&quot;#myCarousel&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+            <br/> &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+            <br/> &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+            <br/> &lt;/a&gt;
+            <br/>&lt;/div&gt;</p>
+    </div> <a href="#" class="button alt">The outermost &lt;div&gt;:.</a>
+    <p class="well">Carousels require the use of an id (in this case id=&quot;myCarousel&quot;) for carousel controls to function properly.
+        <br/>
+        <br/>The class=&quot;carousel&quot; specifies that this &lt;div&gt; contains a carousel.
+        <br/>
+        <br/>The .slide class adds a CSS transition and animation effect, which makes the items slide when showing a new item. Omit this class if you do not want this effect.
+        <br/>
+        <br/>The data-ride=&quot;carousel&quot; attribute tells Bootstrap to begin animating the carousel immediately when the page loads.</p> <a href="#" class="button alt">The &quot;Indicators&quot; part:.</a>
+    <p class="well">The indicators are the little dots at the bottom of each slide (which indicates how many slides there is in the carousel, and which slide the user are currently viewing).
+        <br/>
+        <br/>The indicators are specified in an ordered list with class .carousel-indicators.
+        <br/>
+        <br/>The data-target attribute points to the id of the carousel.
+        <br/>
+        <br/>The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot.</p> <a href="#" class="button alt">The &quot;Wrapper for slides&quot; part:.</a>
+    <p class="well">The slides are specified in a &lt;div&gt; with class .carousel-inner.
+        <br/>
+        <br/>The content of each slide is defined in a &lt;div&gt; with class .item. This can be text or images.
+        <br/>
+        <br/>The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.</p> <a href="#" class="button alt">The &quot;Left and right controls&quot; part:.</a>
+    <p class="well">This code adds &quot;left&quot; and &quot;right&quot; buttons that allows the user to go back and forth between the slides manually.
+        <br/>
+        <br/>The data-slide attribute accepts the keywords &quot;prev&quot; or &quot;next&quot;, which alters the slide position relative to its current position.</p>
+</footer>
