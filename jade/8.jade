@@ -1,0 +1,52 @@
+html
+  body
+    footer
+      a.button.alt(href='#') Alerts.
+      p.well
+        | Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+      img(src='images/img.png')
+      .wrapper
+        p.well
+          | &lt;div class=&quot;alert alert-success&quot;&gt;
+          br
+          |  &lt;strong&gt;Success!&lt;/strong&gt; Indicates a successful or positive action.
+          br
+          | &lt;/div&gt;
+          br
+          br
+          | &lt;div class=&quot;alert alert-info&quot;&gt;
+          br
+          |  &lt;strong&gt;Info!&lt;/strong&gt; Indicates a neutral informative change or action.
+          br
+          | &lt;/div&gt;
+          br
+          br
+          | &lt;div class=&quot;alert alert-warning&quot;&gt;
+          br
+          |  &lt;strong&gt;Warning!&lt;/strong&gt; Indicates a warning that might need attention.
+          br
+          | &lt;/div&gt;
+          br
+          br
+          | &lt;div class=&quot;alert alert-danger&quot;&gt;
+          br
+          |  &lt;strong&gt;Danger!&lt;/strong&gt; Indicates a dangerous or potentially negative action.
+          br
+          | &lt;/div&gt;
+      a.button.alt(href='#') Closing Alerts.
+      p.well
+        | To close the alert message, add class=&quot;close&quot; and data-dismiss=&quot;alert&quot; to a link or a button element:
+      .wrapper
+        p.well
+          | &lt;div class=&quot;alert alert-success&quot;&gt;
+          br
+          |  &lt;a href=&quot;#&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;close&quot;&gt;&amp;times;&lt;/a&gt;
+          br
+          |  &lt;strong&gt;Success!&lt;/strong&gt; Indicates a successful or positive action.
+          br
+          | &lt;/div&gt;
+      a.button.alt(href='#') Animated Alerts.
+      p.well The .fade and .in classes adds a fading effect when closing the alert message:
+      .wrapper
+        p.well
+          .alert.alert-success.fade.in

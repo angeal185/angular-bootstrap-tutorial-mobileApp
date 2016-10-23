@@ -1,0 +1,114 @@
+html
+  body
+    footer
+      a.button.alt(href='#') Circle.
+      p.well
+        | The .img-circle class shapes the image to a circle (IE8 does not support rounded corners):
+      .wrapper
+        p.well
+          | &lt;img src=&quot;cinqueterre.jpg&quot; class=&quot;img-circle&quot; alt=&quot;Cinque Terre&quot; width=&quot;304&quot; height=&quot;236&quot;&gt;
+      img(src='images/circle.png')
+      a.button.alt(href='#') Rounded Corners.
+      p.well
+        | The .img-rounded class adds rounded corners to an image (IE8 does not support rounded corners):
+      .wrapper
+        p.well
+          | &lt;img src=&quot;cinqueterre.jpg&quot; class=&quot;img-rounded&quot; alt=&quot;Cinque Terre&quot; width=&quot;304&quot; height=&quot;236&quot;&gt;
+      img(src='images/round.png')
+      a.button.alt(href='#') Thumbnail.
+      p.well The .img-thumbnail class shapes the image to a thumbnail:
+      .wrapper
+        p.well
+          | &lt;img src=&quot;cinqueterre.jpg&quot; class=&quot;img-thumbnail&quot; alt=&quot;Cinque Terre&quot; width=&quot;304&quot; height=&quot;236&quot;&gt;
+      img(src='images/thumb.png')
+      a.button.alt(href='#') Responsive Images.
+      p.well
+        | Images comes in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen.
+        br
+        br
+        | Create responsive images by adding an .img-responsive class to the &lt;img&gt; tag. The image will then scale nicely to the parent element.
+        br
+        br
+        | The .img-responsive class applies display: block; and max-width: 100%; and height: auto; to the image:
+      .wrapper
+        p.well &lt;img class=&quot;img-responsive&quot; src=&quot;img_chania.jpg&quot; alt=&quot;Chania&quot;&gt;
+      a.button.alt(href='#') Image Gallery.
+      p.well
+        | You can also use Bootstrap&apos;s grid system in conjunction with the .thumbnail class to create an image gallery:
+      .wrapper
+        p.well
+          | &lt;div class=&quot;row&quot;&gt;
+          br
+          | &lt;div class=&quot;col-md-4&quot;&gt;
+          br
+          | &lt;a href=&quot;pulpitrock.jpg&quot; class=&quot;thumbnail&quot;&gt;
+          br
+          | &lt;p&gt;Pulpit Rock: A famous tourist attraction in Forsand, Ryfylke, Norway.&lt;/p&gt;
+          br
+          | &lt;img src=&quot;pulpitrock.jpg&quot; alt=&quot;Pulpit Rock&quot; style=&quot;width:150px;height:150px&quot;&gt;
+          br
+          | &lt;/a&gt;
+          br
+          | &lt;/div&gt;
+          br
+          | &lt;div class=&quot;col-md-4&quot;&gt;
+          br
+          | &lt;a href=&quot;moustiers-sainte-marie.jpg&quot; class=&quot;thumbnail&quot;&gt;
+          br
+          | &lt;p&gt;Moustiers-Sainte-Marie: Considered as one of the &quot;most beautiful villages of France&quot;.&lt;/p&gt;
+          br
+          | &lt;img src=&quot;moustiers-sainte-marie.jpg&quot; alt=&quot;Moustiers Sainte Marie&quot; style=&quot;width:150px;height:150px&quot;&gt;
+          br
+          | &lt;/a&gt;
+          br
+          | &lt;/div&gt;
+          br
+          | &lt;div class=&quot;col-md-4&quot;&gt;
+          br
+          | &lt;a href=&quot;cinqueterre.jpg&quot; class=&quot;thumbnail&quot;&gt;
+          br
+          | &lt;p&gt;The Cinque Terre: A rugged portion of coast in the Liguria region of Italy.&lt;/p&gt;
+          br
+          | &lt;img src=&quot;cinqueterre.jpg&quot; alt=&quot;Cinque Terre&quot; style=&quot;width:150px;height:150px&quot;&gt;
+          br
+          | &lt;/a&gt;
+          br
+          | &lt;/div&gt;
+          br
+          | &lt;/div&gt;
+      a.button.alt(href='#') Responsive Embeds.
+      p.well
+        | Also let videos or slideshows scale properly on any device.
+        br
+        br
+        | Classes can be applied directly to &lt;iframe&gt;, &lt;embed&gt;, &lt;video&gt;, and &lt;object&gt; elements.
+        br
+        br
+        | The following example creates a responsive video by adding an .embed-responsive-item class to an &lt;iframe&gt; tag (the video will then scale nicely to the parent element). The containing &lt;div&gt; defines the aspect ratio of the video:
+      .wrapper
+        p.well
+          | &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+          br
+          | &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;...&quot;&gt;&lt;/iframe&gt;
+          br
+          | &lt;/div&gt;
+      p.well You can choose between two aspect ratio classes:
+      .wrapper
+        p.well
+          | &lt;!-- 16:9 aspect ratio --&gt;
+          br
+          | &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+          br
+          | &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;...&quot;&gt;&lt;/iframe&gt;
+          br
+          | &lt;/div&gt;
+          br
+          br
+          | &lt;!-- 4:3 aspect ratio --&gt;
+          br
+          | &lt;div class=&quot;embed-responsive embed-responsive-4by3&quot;&gt;
+          br
+          | &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;...&quot;&gt;&lt;/iframe&gt;
+          br
+          | &lt;/div&gt;
+          br

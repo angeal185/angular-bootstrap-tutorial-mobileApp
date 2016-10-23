@@ -1,0 +1,92 @@
+doctype html
+html
+  head
+    title W3Schools Bootstrap
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='css/slate.css')
+    link(rel='stylesheet', href='css/main.css')
+  script(src='js/jquery.js')
+  script(src='js/angular.js')
+  script(src='js/angular-route.min.js')
+  script(src='js/bootstrap.js')
+  script(src='js/rout.js')
+  script(src='js/skel.min.js')
+  script(src='js/util.js')
+  body.left-sidebar(ng-app='myApp', ng-controller='myCtrl')
+    #page-wrapper
+      #header-wrapper
+        #header
+          br
+          h1
+            a(ng-href='#1') Bootstrap Tutorial
+          nav#nav
+            ul
+              li
+                a(ng-href='#1') Bootstrap Get Starte
+              li
+                a(ng-href='#2') Bootstrap Grids
+              li
+                a(ng-href='#3') Bootstrap Text/Typography
+              li
+                a(ng-href='#4') Bootstrap Tables
+              li
+                a(ng-href='#5') Bootstrap Images
+              li
+                a(ng-href='#6') Bootstrap Jumbotron
+              li
+                a(ng-href='#7') Bootstrap Wells
+              li
+                a(ng-href='#8') Bootstrap Alerts
+              li
+                a(ng-href='#9') Bootstrap Buttons
+              li
+                a(ng-href='#10') Button Groups
+              li
+                a(ng-href='#11') Bootstrap Glyphicons
+              li
+                a(ng-href='#12') Bootstrap Badges and Labels
+              li
+                a(ng-href='#13') Bootstrap Progress Bars
+              li
+                a(ng-href='#14') Bootstrap Pagination
+              li
+                a(ng-href='#15') Bootstrap Pager
+              li
+                a(ng-href='#16') Bootstrap List Groups
+              li
+                a(ng-href='#17') Bootstrap Panels
+              li
+                a(ng-href='#18') Bootstrap Dropdowns
+              li
+                a(ng-href='#19') Bootstrap Collapse
+              li
+                a(ng-href='#20') Bootstrap Tabs and Pills
+              li
+                a(ng-href='#21') Bootstrap Navigation Bar
+              li
+                a(ng-href='#22') Bootstrap Forms
+              li
+                a(ng-href='#23') Bootstrap Form Inputs
+              li
+                a(ng-href='#24') Bootstrap Form Inputs
+              li
+                a(ng-href='#25') Bootstrap Input Sizing
+              li
+                a(ng-href='#26') Bootstrap Carousel Plugin
+              li
+                a(ng-href='#27') Bootstrap Modal Plugin
+              li
+                a(ng-href='#28') Bootstrap Tooltip Plugin
+              li
+                a(ng-href='#29') Bootstrap Popover Plugin
+              li
+                a(ng-href='#30') Bootstrap Scrollspy Plugin
+              li
+                a(ng-href='#31') Bootstrap Affix Plugin
+      #main-wrapper
+        .container
+          .row
+            .4u(ng-view='', class='12u(mobile)')
+              // insert
+
