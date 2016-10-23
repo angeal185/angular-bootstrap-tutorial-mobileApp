@@ -1,2 +1,4 @@
 # angular-bootstrap-tutorial-mobileApp
-AngularJs bootstrap tutorial mobile app
+bootstrap tutorial mobile app built with AngularJs
+
+can be viewed here:https://angeal185.github.io/angular-bootstrap-tutorial-mobileApp/
